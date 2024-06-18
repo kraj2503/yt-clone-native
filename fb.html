@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook friends cards</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="fb-card">
+        <div class="card">
+            <div><img class="id-pic" src="thumbnails/img1.jpeg"></div>
+
+            <div class="name">
+                <p>Oliver</p>
+            </div>
+            <div>
+                <div class="mutual"><img class="mut" src="thumbnails/img2.jpeg"></div>
+                <div class="friends">
+                    <p>2 mutual friends</p>
+                </div>
+            </div>
+            <button class="add-button">Add Friend</button>
+
+        </div>
+        <div class="card">
+            <div><img class="id-pic" src="thumbnails/img1.jpeg"></div>
+
+            <div class="name">
+                <p>Oliver</p>
+            </div>
+            <div>
+                <div class="mutual"><img class="mut" src="thumbnails/img2.jpeg"></div>
+                <div class="friends">
+                    <p>2 mutual friends</p>
+                </div>
+            </div>
+            <button class="add-button">Add Friend</button>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
+<style>
+    p {
+        font-family: roboto, Arial;
+        margin: 0;
+    }
+
+    .card {
+        /* display: inline-block; */
+        width: 200px;
+        border-style: hidden;
+        border-radius: 15px;
+        border-width: 1px;
+        box-shadow: 5px 5px 5px grey;
+        padding-bottom: 8px;
+        margin-bottom: 15px;
+        /* height: 100px; */
+    }
+
+    .id-pic {
+        width: 100%;
+        display: block;
+        border-top-right-radius: 14px;
+        border-top-left-radius: 14px;
+        margin-bottom: 6px;
+        height: 250px;
+        object-fit:fill;
+    }
+
+    .name {
+        vertical-align: top;
+        font-weight: 700;
+        padding-left: 6px;
+        margin-top: 0px;
+        margin-bottom: 6px;
+
+    }
+
+    .mutual {
+        display: inline-block;
+        /* border-radius: 50px;
+        width: 40px; */
+        align-items: center;
+
+
+    }
+
+    .mut {
+        width: 32px;
+        height: 32px;
+        margin-left: 5px;
+        border-radius: 30px;
+
+    }
+
+    .friends {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 5px;
+        margin-left: 5px;
+        font-weight: 500;
+        font-size: 15px;
+        color: rgba(94, 94, 94, 0.744);
+    }
+
+    .add-button {
+        background-color: rgb(38, 116, 218);
+        color: white;
+        border-width: 1px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 12px;
+        padding-right: 12px;
+        border-radius: 5px;
+        border-style: hidden;
+        margin-left: 10px;
+        margin-top: 7px;
+        font-family: roboto;
+        font-weight: 300;
+    }
+
+    .add-button:hover {
+        cursor: pointer;
+    }
+
+    .add-button:active {
+        background-color: rgb(28, 80, 148)
+    }
+
+    .fb-card{
+        display: grid;
+        grid-template-columns: 230px 230px 230px;
+        align-items: center;
+    }
+</style>

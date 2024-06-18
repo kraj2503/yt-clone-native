@@ -1,0 +1,65 @@
+.subscribe-button{
+    background-color: rgb(209, 18, 18);
+    color: white;
+    border: none;
+    height: 35px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity .15s;
+}
+.subscribe-button:hover{
+    opacity: .8;
+}
+.subscribe-button:active{
+    opacity: .5;
+}
+
+
+
+.join-button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(26, 122, 233);
+    border-radius: 3px;
+    /* height: 35px;
+    width: 65px; */
+    padding-left: 2px;
+    padding-top:6px;
+    padding-bottom:6px;
+    padding-right: 2px;
+    border-color: rgb(26, 122, 233);
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: background-color .25s, color .25s;
+}
+
+.join-button:hover{
+    background-color: blue;
+    color:white;
+
+}
+.join-button:active{
+    opacity: .7;
+
+}
+
+
+.tweet-button{
+    background-color: rgb(21, 149, 218);
+    border-radius: 18px;
+    color: white;
+    height: 30px;
+    width: 65px;
+    border-width: 0px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow .15s;
+}
+
+.tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}

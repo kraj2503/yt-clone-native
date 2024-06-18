@@ -1,0 +1,61 @@
+p {
+    font-family: Roboto;
+}
+a{
+    color: white;
+}
+
+.video-title {
+
+    font-weight: bold;
+    font-size: 18px;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+
+.view {
+
+    font-size: 14px;
+    color: rgba(188, 144, 144, 0.813);
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.name {
+
+    color: rgba(188, 144, 144, 0.813);
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.disp {
+
+    font-size: 14px;
+    color: rgba(188, 144, 144, 0.813);
+    width: 300px;
+    line-height: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.shop {
+    background-color: red;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+}
+
+.click {
+    cursor: pointer;
+    color: white;
+
+}
+
+.click:hover {
+    text-decoration: underline;
+}
